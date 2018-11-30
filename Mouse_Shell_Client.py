@@ -5,7 +5,7 @@ import subprocess
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
 #Coloque o IP Da sua máquina - insert tour computer's IP
-host = '169.254.164.214'
+host = ''
 port = 6666
 
 s.connect((host, port))
